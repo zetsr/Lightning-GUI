@@ -112,7 +112,7 @@ namespace Lightning
 
 Lightning 本身不会主动运行，它依赖 DLL 注入和 Hook 触发。
 
-必须确保：
+需确保：
 
 * `DllMain` 被成功执行
 * Hook 初始化逻辑已运行
