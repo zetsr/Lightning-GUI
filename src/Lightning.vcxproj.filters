@@ -1,0 +1,49 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<Project ToolsVersion="4.0" xmlns="http://schemas.microsoft.com/developer/msbuild/2003">
+  <ItemGroup>
+    <Filter Include="MinHook">
+      <UniqueIdentifier>{4b0b9a09-ae8a-4291-adba-ac020cdabf08}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="MinHook\include">
+      <UniqueIdentifier>{34d401f4-3975-4ff8-8160-5f5106c47473}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="MinHook\src">
+      <UniqueIdentifier>{3e62291c-df90-4941-98f0-0efa09d944e1}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="MinHook\src\hde">
+      <UniqueIdentifier>{222d51e7-4b03-400b-8bad-528143290778}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Lightning">
+      <UniqueIdentifier>{4FC737F1-C7A5-4376-A066-2A32D752A2FF}</UniqueIdentifier>
+      <Extensions>cpp;c;cc;cxx;c++;cppm;ixx;def;odl;idl;hpj;bat;asm;asmx</Extensions>
+    </Filter>
+  </ItemGroup>
+  <ItemGroup>
+    <ClCompile Include="BackEnd.cpp">
+      <Filter>Lightning</Filter>
+    </ClCompile>
+    <ClCompile Include="Entry.cpp">
+      <Filter>Lightning</Filter>
+    </ClCompile>
+    <ClCompile Include="Lightning.cpp">
+      <Filter>Lightning</Filter>
+    </ClCompile>
+    <ClCompile Include="Hook.cpp">
+      <Filter>Lightning</Filter>
+    </ClCompile>
+  </ItemGroup>
+  <ItemGroup>
+    <ClInclude Include="D3D11.hpp">
+      <Filter>Lightning</Filter>
+    </ClInclude>
+    <ClInclude Include="Lightning.h">
+      <Filter>Lightning</Filter>
+    </ClInclude>
+    <ClInclude Include="MinHook\include\MinHook.h">
+      <Filter>MinHook\include</Filter>
+    </ClInclude>
+    <ClInclude Include="Hook.h">
+      <Filter>Lightning</Filter>
+    </ClInclude>
+  </ItemGroup>
+</Project>
